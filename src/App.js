@@ -1,23 +1,19 @@
 import { getAllCategories } from "./api/RecipesApi";
 import { useState, useEffect } from "react";
 import CategoryGrid from "./components/CategoryGrid";
-import { Alert } from "@mui/material";
+import CircularIndeterminate from "./components/CircularIndeterminate";
 
-
-window.showAlertMessage = function(message){
+window.showAlertMessage = function (message) {
   alert(message);
 };
 
 function App() {
-  const [allCategories, setAllCategories] = useState([]);
+  const [allCategories, setAllCategories] = useState();
 
   useEffect(() => {
     getAllCategories()
       .then((result) => {
-        console.log("Data");
-        console.log(result);
         setAllCategories(result);
-        window.showAlertMessage("Meal categories loaded");
       })
       .catch((e) =>
         console.log(e)
@@ -25,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <CategoryGrid categories={allCategories} />
+    (allCategories ? <CategoryGrid categories={allCategories} /> : <CircularIndeterminate />)
   );
 }
 
