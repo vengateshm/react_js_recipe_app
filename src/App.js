@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { getAllCategories } from "./api/RecipesApi";
+import { useState, useEffect } from "react";
+import CategoryGrid from "./components/CategoryGrid";
+import { Alert } from "@mui/material";
+
+
+window.showAlertMessage = function(message){
+  alert(message);
+};
 
 function App() {
+  const [allCategories, setAllCategories] = useState([]);
+
+  useEffect(() => {
+    getAllCategories()
+      .then((result) => {
+        console.log("Data");
+        console.log(result);
+        setAllCategories(result);
+        window.showAlertMessage("Meal categories loaded");
+      })
+      .catch((e) =>
+        console.log(e)
+      );
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CategoryGrid categories={allCategories} />
   );
 }
 
