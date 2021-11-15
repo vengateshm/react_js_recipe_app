@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/vengateshm/react_js_recipe_app/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/vengateshm/react_js_recipe_app/static/js/main.9abe280d.chunk.js",
-    "main.js.map": "/vengateshm/react_js_recipe_app/static/js/main.9abe280d.chunk.js.map",
-    "runtime-main.js": "/vengateshm/react_js_recipe_app/static/js/runtime-main.5c338d48.js",
-    "runtime-main.js.map": "/vengateshm/react_js_recipe_app/static/js/runtime-main.5c338d48.js.map",
-    "static/js/2.0175a70f.chunk.js": "/vengateshm/react_js_recipe_app/static/js/2.0175a70f.chunk.js",
-    "static/js/2.0175a70f.chunk.js.map": "/vengateshm/react_js_recipe_app/static/js/2.0175a70f.chunk.js.map",
-    "static/js/3.db121390.chunk.js": "/vengateshm/react_js_recipe_app/static/js/3.db121390.chunk.js",
-    "static/js/3.db121390.chunk.js.map": "/vengateshm/react_js_recipe_app/static/js/3.db121390.chunk.js.map",
+    "main.js": "/vengateshm/react_js_recipe_app/static/js/main.033cb989.chunk.js",
+    "main.js.map": "/vengateshm/react_js_recipe_app/static/js/main.033cb989.chunk.js.map",
+    "runtime-main.js": "/vengateshm/react_js_recipe_app/static/js/runtime-main.2e8fcd13.js",
+    "runtime-main.js.map": "/vengateshm/react_js_recipe_app/static/js/runtime-main.2e8fcd13.js.map",
+    "static/js/2.7f5ff05e.chunk.js": "/vengateshm/react_js_recipe_app/static/js/2.7f5ff05e.chunk.js",
+    "static/js/2.7f5ff05e.chunk.js.map": "/vengateshm/react_js_recipe_app/static/js/2.7f5ff05e.chunk.js.map",
+    "static/js/3.94446449.chunk.js": "/vengateshm/react_js_recipe_app/static/js/3.94446449.chunk.js",
+    "static/js/3.94446449.chunk.js.map": "/vengateshm/react_js_recipe_app/static/js/3.94446449.chunk.js.map",
     "index.html": "/vengateshm/react_js_recipe_app/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/vengateshm/react_js_recipe_app/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.0175a70f.chunk.js.LICENSE.txt": "/vengateshm/react_js_recipe_app/static/js/2.0175a70f.chunk.js.LICENSE.txt"
+    "static/js/2.7f5ff05e.chunk.js.LICENSE.txt": "/vengateshm/react_js_recipe_app/static/js/2.7f5ff05e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c338d48.js",
-    "static/js/2.0175a70f.chunk.js",
+    "static/js/runtime-main.2e8fcd13.js",
+    "static/js/2.7f5ff05e.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.9abe280d.chunk.js"
+    "static/js/main.033cb989.chunk.js"
   ]
 }
